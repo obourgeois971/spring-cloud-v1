@@ -1,0 +1,31 @@
+package net.javaguides.springboot.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import net.javaguides.springboot.bean.Student;
+
+@RestController
+public class HelloWorldController {
+
+	// HTTP GET Request
+	/** http://localhost:8080/hello-world */
+	@GetMapping("/hello-world")
+	public String helloWorld() {
+		return "Hello World!";
+	}
+	
+	/** */
+	@GetMapping("students")
+	public List<Student> getStudent() {
+		List<Student> students = new ArrayList<>();
+		students.add(new Student(1, "Ramesh", "Fadatare"));
+		students.add(new Student(2, "umesh", "Fadatare"));
+		students.add(new Student(1, "Ram", "Fadatare"));
+		students.add(new Student(1, "Sanjay", "Fadatare"));
+		return students;
+	}
+}
