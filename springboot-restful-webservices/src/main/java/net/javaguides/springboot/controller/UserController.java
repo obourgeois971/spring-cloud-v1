@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import lombok.AllArgsConstructor;
 import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
 import net.javaguides.springboot.service.UserService;
 
 @RestController
