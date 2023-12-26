@@ -57,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="net.javaguides.springboot.repository.UserRepository"/>
     <fullyQualifiedTypeName name="net.javaguides.springboot.exception.EmailAlreadyExistsException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
 </qualifiedTypeNameHistroy>
