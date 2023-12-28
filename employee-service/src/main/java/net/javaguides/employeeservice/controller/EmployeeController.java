@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.AllArgsConstructor;
+import net.javaguides.employeeservice.dto.APIResponseDto;
 import net.javaguides.employeeservice.dto.EmployeeDto;
 import net.javaguides.employeeservice.service.EmployeeService;
 
@@ -29,8 +30,8 @@ public class EmployeeController {
 	
 	// Build Get Employee REST API
 	@GetMapping("{id}")
-	private ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable("id") Long employeeId) {
-		EmployeeDto employeeDto = employeeService.getEmployeeById(employeeId);
-		return new ResponseEntity<>(employeeDto, HttpStatus.OK);
+	private ResponseEntity<APIResponseDto> getEmployeeById(@PathVariable("id") Long employeeId) {
+		APIResponseDto apiResponseDto = employeeService.getEmployeeById(employeeId);
+		return new ResponseEntity<>(apiResponseDto, HttpStatus.OK);
 	}
 }
