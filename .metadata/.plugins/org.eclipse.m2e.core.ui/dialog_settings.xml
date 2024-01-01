@@ -6,8 +6,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="D:\ws\workspace-app\workspace-udemy-spring-boot-jpa-03\employee-service"/>
+			<item value="D:\ws\workspace-app\workspace-udemy-spring-boot-jpa-03\cloud"/>
+			<item value="D:\ws\workspace-app\workspace-udemy-spring-boot-jpa-03\api-gateway"/>
 			<item value="D:\ws\workspace-app\workspace-udemy-spring-boot-jpa-03\department-service"/>
+			<item value="D:\ws\workspace-app\workspace-udemy-spring-boot-jpa-03\employee-service"/>
 			<item value="D:\ws\workspace-app\workspace-udemy-spring-boot-jpa-03\service-registry"/>
 		</list>
 		<list key="projectNameTemplate">
